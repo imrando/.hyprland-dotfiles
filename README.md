@@ -1,13 +1,12 @@
 # Tokyo Night 
 ## Rice Components
-'''
-WM: Hyprland
-Terminal: Kitty
-Bar: Waybar
-Launcher: Rofi 
-Logout Menu: nwg-bar
+```
+WM          : Hyprland
+Terminal    : Kitty
+Bar         : Waybar
+Launcher    : Rofi-lbonn-wayland
 File Manager: Nautilus
-'''
+```
 
 # Dependencies
 
