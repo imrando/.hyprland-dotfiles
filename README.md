@@ -10,18 +10,39 @@ File Manager: Nautilus
 '''
 
 # Dependencies
-Hyprland [Pacman] The wm itself
-Yay or any other aur helper [AUR]
-Waybar [Pacman] The bar
-Nwg-Bar[AUR] Logout menu
-Nw-Applet [Pacman] Network Manager gtk frontend
-Waypaper + SWWW [Aur] or your preferred wallpaper daemon
-Hyprshot [AUR] Screenshots
-Dunst [Pacman] Notification Daemon
-Waybar-Updates [AUR] Update module
-Gnome or its utils [Pacman] Gnome software looks good, Plus it's always good to have a backup
-Neofetch [Pacman] Ofc to show the distro that you're using.
-Nwg-look [AUR] To configure gtk while using hyprland
+# 💻 Software I use
+
+| Software                                          | Name                                                                                                                                                                                                                                                                 |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Distribution                                      | [Arch Linux (https://arcolinux.com/)                                                                                                                                                                                                                                 |
+| WM                                                | [i3-gaps](https://i3wm.org/), [Openbox](https://wiki.archlinux.org/title/Openbox), [bspwm](https://wiki.archlinux.org/title/Bspwm), [qtile](https://wiki.archlinux.org/title/Qtile), [dwm](https://dwm.suckless.org/), [Sway](https://wiki.archlinux.org/title/Sway) |
+| Status bar                                        | [i3status](https://i3wm.org/docs/i3status.html), [Cairo-dock](https://wiki.archlinux.org/title/Cairo-Dock), [Polybar](https://github.com/polybar/polybar)                                                                                                            |
+| Login Manager                                     | [SDDM](https://wiki.archlinux.org/title/SDDM)                                                                                                                                                                                                                        |
+| Screen locker                                     | [Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)                                                                                                                                                                                             |
+| Terminal emulator                                 | [Alacritty](https://wiki.archlinux.org/title/Alacritty)                                                                                                                                                                                                              |
+| Shell                                             | [Fish](https://fishshell.com/)                                                                                                                                                                                                                                       |
+| Prompt                                            | [Starship](https://starship.rs/)                                                                                                                                                                                                                                     |
+| Browser                                           | [Firefox](https://www.mozilla.org/en-US/firefox/new/)                                                                                                                                                                                                                |
+| File managers                                     | [Thunar](https://github.com/jorgeloopzz/dotfiles/wiki/Thunar), [Ranger](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/ranger)                                                                                                                                      |
+| IDE'S                                             | [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)                                                                                                                                                          |
+| Image viewer                                      | [EoG](https://wiki.gnome.org/Apps/EyeOfGnome)                                                                                                                                                                                                                        |
+| Video/Audio player                                | [VLC](https://wiki.archlinux.org/title/VLC_media_player)                                                                                                                                                                                                             |
+| Music player                                      | [Spotify](https://wiki.archlinux.org/title/Spotify)                                                                                                                                                                                                                  |
+| Background setter                                 | [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)                                                                                                                                                                                                                |
+| Torrent client                                    | [qBittorrent](https://www.qbittorrent.org/)                                                                                                                                                                                                                          |
+| Launchers                                         | [Rofi](https://wiki.archlinux.org/title/Rofi)                                                                                                                                                                                                                        |
+| Screenshots                                       | [Flameshot](https://flameshot.org/)                                                                                                                                                                                                                                  |
+| Screen recorder                                   | [OBS](https://wiki.archlinux.org/title/Open_Broadcaster_Software)                                                                                                                                                                                                    |
+| GTK Themes                                        | [Arc-Dark](https://www.gnome-look.org/p/1181106/), [Noita](https://github.com/addy-dclxvi/gtk-theme-collections)                                                                                                                                                     |
+| Icon themes                                       | [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)                                                                                                                                                                                              |
+| Notifications                                     | [Dunst](https://wiki.archlinux.org/title/Dunst)                                                                                                                                                                                                                      |
+| Sound                                             | [Pulseaudio](https://wiki.archlinux.org/title/PulseAudio), [Pavucontrol](https://github.com/pulseaudio/pavucontrol) (GUI)                                                                                                                                            |
+| Bluethooth                                        | [bluez](https://wiki.archlinux.org/title/bluetooth), [bluez-utils](https://wiki.archlinux.org/title/bluetooth), [blueman](https://github.com/blueman-project/blueman) (GUI)                                                                                          |
+| Brightness                                        | [brightnessctl](https://gitlab.com/wavexx/acpilight)                                                                                                                                                                                                                     |
+| Network                                           | [Network manager](https://wiki.archlinux.org/title/NetworkManager)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Systray                                           | [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet), [cbatticon](https://github.com/valr/cbatticon), [Volumeicon](https://github.com/Maato/volumeicon)                                                                                            |
+| Storage devices                                   | [Udisks](https://wiki.archlinux.org/title/Udisks)         |
+
 
 
 ## Disclaimer!
