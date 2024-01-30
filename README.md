@@ -41,7 +41,6 @@ cp -r .hyprland-dotfiles/* $HOME/.config/
 Tokyo Night GTK https://www.gnome-look.org/p/1681315/
 
 # Screenshots
-![2024-01-29-201109_hyprshot](https://github.com/imrando/.hyprland-dotfiles/assets/125212483/ac45ec77-6317-4110-bb84-f41095c345e0)
 
 ![2024-01-29-201530_hyprshot](https://github.com/imrando/.hyprland-dotfiles/assets/125212483/349e4631-38a8-496b-98f3-eef94da17b8f)
 
