@@ -1,0 +1,131 @@
+@import url("/home/itz-domi/.config/waybar/custom-colors.css");
+* {
+  /* border: none; */
+  border-radius: 0px;
+  font-family: "JetBrainsMono NF";
+  font-weight: 500;
+  font-size: 15px;
+  min-height: 8px;
+}
+
+window#waybar {
+  background: rgba(18, 18, 30, 0);
+  color: @white;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+tooltip {
+  background: @module-bg;
+  border-radius: 7px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #11111b;
+}
+
+#window,
+#mpris,
+#custom-spotify,
+#custom-pacman,
+#memory,
+#network,
+#workspaces,
+#battery,
+#backlight,
+#pulseaudio,
+#clock,
+#custom-notification,
+#tray {
+  background-color: @module-bg;
+  padding: 0px 10px 0px 10px;
+  margin: 2px;
+  border-radius: 8px;
+}
+
+#mpris {
+  color: @white;
+}
+
+/* #mpris.paused { */
+/*   border-bottom: 2px solid @white; */
+/* } */
+
+#network {
+  color: @blue;
+}
+
+#memory {
+  color: @sun;
+}
+
+#workspaces button {
+  color: @white;
+  background-color: @module-bg;
+}
+
+#workspaces button.active {
+  color: @module-bg;
+  background-color: @white;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5px;
+}
+
+#workspaces button.urgent {
+  color: @module-bg;
+  background: @blue;
+  border-radius: 7px;
+}
+
+#workspaces button.active:hover {
+  color: @module-bg;
+  background-color: @white;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5px;
+}
+
+#workspaces button:hover {
+  color: @module-bg;
+  background: @blue;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+}
+
+@keyframes blink-update {
+	to {
+		background-color: dodgerblue;
+	}
+}
+
+#custom-pacman {
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+        color:@blue;
+	animation-direction: alternate;
+}
+
+#battery {
+  color: @blue;
+}
+
+#backlight {
+  color: @blue;
+}
+
+#pulseaudio {
+  color: @blue;
+}
+
+#clock {
+  color: @blue;
+}
+
+#custom-notification {
+font-family: "NotoSansMono Nerd Font";
+  color: @blue;
+}
