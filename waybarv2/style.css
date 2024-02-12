@@ -1,0 +1,125 @@
+@import url("/home/itz-domi/.config/waybar/custom-colors.css");
+* {
+  /* border: none; */
+  
+  font-family: "JetBrainsMono NF";
+  font-weight: 400;
+  font-size: 14px;
+  min-height: 8px;
+}
+
+window#waybar {
+  background: rgba(18, 18, 30, 0);
+  color: @white;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+tooltip {
+  background: @module-bg;
+  border-radius: 7px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #11111b;
+}
+
+#custom-arch,
+#cava,
+#custom-weather,
+#custom-pacman,
+#memory,
+#network,
+#workspaces,
+#battery,
+#backlight,
+#pulseaudio,
+#clock,
+#tray {
+  background-color: @module-bg;
+  padding: 0px 10px 0px 10px;
+  border: 3px solid @blue;
+  margin: 2px;
+  border-radius: 8px;
+}
+
+
+
+/* #mpris.paused { */
+/*   border-bottom: 2px solid @white; */
+/* } */
+#cava {
+   color: @blue;
+}
+
+#network {
+  color: @blue;
+}
+
+#custom-pacman {
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	color: @blue;
+}
+
+#custom-arch {
+  color: @blue;
+}
+
+#workspaces button {
+  color: @blue;
+  background-color: @module-bg;
+}
+
+#workspaces button.active {
+  color: @module-bg;
+  background-color: @blue;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5px;
+}
+
+#workspaces button.urgent {
+  color: @module-bg;
+  background: @blue;
+  border-radius: 7px;
+}
+
+#workspaces button.active:hover {
+  color: @module-bg;
+  background-color: @blue;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5px;
+}
+
+#workspaces button:hover {
+  color: @module-bg;
+  background: @blue;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+}
+
+#custom-weather {
+        color:@blue;
+}
+
+#battery {
+  color: @blue;
+}
+
+#backlight {
+  color: @blue;
+}
+
+#pulseaudio {
+  color: @blue;
+}
+
+#clock {
+  color: @blue;
+}
